@@ -22,6 +22,7 @@ A daily SQL practice journey focused on preparing for **Data Analyst internships
 - [Day 01](#day-01)
 - [Day 02](#day-02)
 - [Day 03](#day-03)
+- [Day 04](#day-04)
 
 ---
 
@@ -118,6 +119,46 @@ A daily SQL practice journey focused on preparing for **Data Analyst internships
 - Using multiple window functions together in a single query
 - Using `CAST()` to avoid integer division when calculating percentages
 - Structuring complex SQL problems as **Calculate → CTE → Filter**
+
+</details>
+
+---
+<details>
+<summary><h2 id="day-04">📕 Day 04</h2></summary>
+
+### Topics
+- Self JOIN
+- INNER JOIN
+- LEFT JOIN
+- Multiple JOINs
+- GROUP BY
+- COUNT
+- SUM
+- COALESCE
+- Window Functions
+- PARTITION BY
+- ROW_NUMBER
+- DENSE_RANK
+- CTEs
+- Date Comparison
+- Aggregations
+
+### Progress
+✅ **10/10 Questions Attempted**
+
+### Key Learnings
+- Using Self JOIN to connect employees with their managers
+- Using LEFT JOIN to include employees without managers or projects
+- Joining multiple tables through a bridge table
+- Using `COALESCE()` to handle NULL values in aggregations
+- Using `SUM()` and `COUNT()` with `GROUP BY`
+- Using `DENSE_RANK()` to handle ties in ranking problems
+- Difference between `ROW_NUMBER()` and `DENSE_RANK()`
+- Using window functions after aggregation
+- Using CTEs to break complex SQL problems into multiple steps
+- Calculating department-level averages with `AVG() OVER(PARTITION BY ...)`
+- Comparing individual employee performance with department averages
+- Combining JOINs, GROUP BY, CTEs, and window functions in complex queries
 
 </details>
 
