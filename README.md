@@ -3,8 +3,8 @@
 A daily SQL practice journey focused on preparing for **Data Analyst internships** and **SQL interviews**.
 
 ![SQL](https://img.shields.io/badge/SQL-Practice-blue)
-![Progress](https://img.shields.io/badge/Days_Completed-3-brightgreen)
-![Questions](https://img.shields.io/badge/Questions_Solved-30-orange)
+![Progress](https://img.shields.io/badge/Days_Completed-4-brightgreen)
+![Questions](https://img.shields.io/badge/Questions_Solved-40-orange)
 
 ---
 
