@@ -3,8 +3,8 @@
 A daily SQL practice journey focused on preparing for **Data Analyst internships** and **SQL interviews**.
 
 ![SQL](https://img.shields.io/badge/SQL-Practice-blue)
-![Progress](https://img.shields.io/badge/Days_Completed-4-brightgreen)
-![Questions](https://img.shields.io/badge/Questions_Solved-40-orange)
+![Progress](https://img.shields.io/badge/Days_Completed-5-brightgreen)
+![Questions](https://img.shields.io/badge/Questions_Solved-50-orange)
 
 ---
 
@@ -23,6 +23,7 @@ A daily SQL practice journey focused on preparing for **Data Analyst internships
 - [Day 02](#day-02)
 - [Day 03](#day-03)
 - [Day 04](#day-04)
+- [Day 05](#day-05)
 
 ---
 
@@ -163,5 +164,56 @@ A daily SQL practice journey focused on preparing for **Data Analyst internships
 </details>
 
 ---
+<details>
+<summary><h2 id="day-05">📔 Day 05</h2></summary>
 
+### Topics
+- `INNER JOIN`
+- `LEFT JOIN`
+- Multiple `JOIN`s
+- `GROUP BY`
+- `COUNT()`
+- `SUM()`
+- `AVG()`
+- `MAX()`
+- `COALESCE()`
+- `CASE WHEN`
+- Conditional Aggregation
+- Subqueries
+- CTEs
+- Window Functions
+- `PARTITION BY`
+- `DENSE_RANK()`
+- Customer Spending Analysis
+- Product Sales Analysis
+- Date Functions
+- Filtering Aggregated Results
+
+### Progress
+✅ **10/10 Questions Attempted**
+
+### Key Learnings
+- Using `LEFT JOIN` to include customers with no orders
+- Finding customers who never placed an order using `LEFT JOIN + IS NULL`
+- Using `CASE WHEN` for conditional aggregation
+- Calculating completed-order spending while preserving customers with zero spending
+- Difference between average order value and average customer spending
+- Using CTEs to break complex customer analysis into multiple steps
+- Using `DENSE_RANK()` with `PARTITION BY` to find the highest-spending customer in each city
+- Handling ties using `DENSE_RANK()`
+- Calculating monthly sales using `YEAR()` and `MONTH()`
+- Joining `Products`, `OrderItems`, and `Orders` for product-level sales analysis
+- Using `COALESCE()` to display `0` instead of `NULL`
+- Using conditional aggregation to exclude cancelled orders
+- Calculating total quantity sold and product revenue
+- Using window functions to calculate overall customer averages
+- Comparing individual customer spending against the average customer spending
+- Calculating average order value, highest order value, and differences
+- Calculating percentages using `100.0` to avoid integer division
+- Applying multiple conditions after CTE-based calculations
+- Structuring problems using **Calculate → Aggregate → CTE → Window Function → Filter**
+
+</details>
+
+---
 ⭐ *More days coming soon — follow along as this SQL grind continues!*
