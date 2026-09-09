@@ -3,8 +3,8 @@
 A daily SQL practice journey focused on preparing for **Data Analyst internships** and **SQL interviews**.
 
 ![SQL](https://img.shields.io/badge/SQL-Practice-blue)
-![Progress](https://img.shields.io/badge/Days_Completed-5-brightgreen)
-![Questions](https://img.shields.io/badge/Questions_Solved-50-orange)
+![Progress](https://img.shields.io/badge/Days_Completed-6-brightgreen)
+![Questions](https://img.shields.io/badge/Questions_Solved-60-orange)
 
 ---
 
@@ -24,6 +24,7 @@ A daily SQL practice journey focused on preparing for **Data Analyst internships
 - [Day 03](#day-03)
 - [Day 04](#day-04)
 - [Day 05](#day-05)
+- [Day 06](#day-06)
 
 ---
 
@@ -212,6 +213,62 @@ A daily SQL practice journey focused on preparing for **Data Analyst internships
 - Calculating percentages using `100.0` to avoid integer division
 - Applying multiple conditions after CTE-based calculations
 - Structuring problems using **Calculate → Aggregate → CTE → Window Function → Filter**
+
+</details>
+
+---
+<details>
+<summary><h2 id="day-06">📓 Day 06</h2></summary>
+
+### Topics
+- `INNER JOIN`
+- `LEFT JOIN`
+- Multiple `JOIN`s
+- Self `JOIN`
+- `GROUP BY`
+- `COUNT()`
+- `SUM()`
+- `AVG()`
+- `COALESCE()`
+- `CASE WHEN`
+- CTEs
+- Multiple CTEs
+- Window Functions
+- `PARTITION BY`
+- `DENSE_RANK()`
+- Aggregation before Window Functions
+- Employee Performance Analysis
+- Department-level Analysis
+- Avoiding Duplicate Aggregations
+- One-to-Many JOIN Handling
+
+### Progress
+✅ **10/10 Questions Attempted**
+
+### Key Learnings
+- Using `LEFT JOIN` to include departments with zero employees
+- Using `CASE WHEN` for salary categorization
+- Using window functions to calculate department-level averages
+- Finding employees with no project assignments using `LEFT JOIN + IS NULL`
+- Using self `JOIN` to compare employees with their managers
+- Calculating salary differences between employees and managers
+- Using `GROUP BY` to calculate employee-level project statistics
+- Using `DENSE_RANK()` to find top employees within each department
+- Understanding the difference between `ROW_NUMBER()` and `DENSE_RANK()`
+- Using `AVG() OVER(PARTITION BY ...)` to calculate department averages
+- Comparing employee performance against department averages
+- Using multiple CTEs to break complex problems into logical steps
+- Aggregate first → Window Function second → Calculate → Filter
+- Avoiding duplicate calculations when joining multiple one-to-many tables
+- Aggregating employee salaries and project budgets separately before joining them
+- Using `COALESCE()` to handle departments with missing related records
+- Calculating average hours per project
+- Calculating percentage performance against department averages
+- Using `DENSE_RANK()` to find the highest-value department
+- Understanding why direct joins between multiple one-to-many tables can inflate aggregate results
+
+### Highlights
+💡 Day 6 focused on advanced analytical SQL and multi-step problem solving.
 
 </details>
 
