@@ -3,8 +3,8 @@
 A daily SQL practice journey focused on preparing for **Data Analyst internships** and **SQL interviews**.
 
 ![SQL](https://img.shields.io/badge/SQL-Practice-blue)
-![Progress](https://img.shields.io/badge/Days_Completed-6-brightgreen)
-![Questions](https://img.shields.io/badge/Questions_Solved-60-orange)
+![Progress](https://img.shields.io/badge/Days_Completed-7-brightgreen)
+![Questions](https://img.shields.io/badge/Questions_Solved-70-orange)
 
 ---
 
@@ -25,7 +25,7 @@ A daily SQL practice journey focused on preparing for **Data Analyst internships
 - [Day 04](#day-04)
 - [Day 05](#day-05)
 - [Day 06](#day-06)
-
+- [Day 07](#day-07)
 ---
 
 <details>
@@ -271,6 +271,65 @@ A daily SQL practice journey focused on preparing for **Data Analyst internships
 💡 Day 6 focused on advanced analytical SQL and multi-step problem solving.
 
 </details>
+
+---
+<details>
+<summary><h2 id="day-07">📒 Day 07</h2></summary>
+
+### Topics
+- `INNER JOIN`
+- `LEFT JOIN`
+- `GROUP BY`
+- `COUNT()`
+- `SUM()`
+- `AVG()`
+- `MIN()`
+- `MAX()`
+- `CASE WHEN`
+- CTEs
+- Multiple CTEs
+- Window Functions
+- `AVG() OVER()`
+- `AVG() OVER(PARTITION BY ...)`
+- `DENSE_RANK()`
+- `PARTITION BY`
+- Employee vs Department Analysis
+- Employee vs Company Analysis
+- Salary Ranking
+- Project Performance Analysis
+- Aggregate → Window Function → Filter
+- Calculated Columns
+- Handling SQL Aliases
+
+### Progress
+✅ **10/10 Questions Attempted**
+🏆 **Score: 96/100 — 9.6/10** 🔥
+
+### Key Learnings
+- Using `AVG() OVER()` to calculate the overall company average
+- Using `AVG() OVER(PARTITION BY ...)` for department-level averages
+- Comparing employee salary against both department and company averages
+- Using `DENSE_RANK()` to rank employees within departments
+- Understanding `PARTITION BY` for department-wise ranking
+- Using `CASE WHEN` for categorizing project budgets
+- Using `COUNT()` instead of `SUM()` when counting projects
+- Calculating average hours per project
+- Using multiple CTEs to break complex SQL problems into manageable steps
+- Understanding Aggregate → CTE → Window Function → Calculate → Filter
+- Filtering calculated columns using an outer query/CTE
+- Understanding why SELECT aliases cannot normally be used in the `WHERE` clause at the same query level
+- Calculating employee performance against department averages
+- Calculating difference and percentage-based performance metrics
+- Using `DENSE_RANK()` with `PARTITION BY` for department-level performance ranking
+- Avoiding incorrect aggregation of identifier columns such as `ProjectID`
+- Understanding the difference between employee-level aggregation and department-level aggregation
+- Handling multiple levels of calculations using sequential CTEs
+
+### Highlights
+💡 Day 7 focused heavily on analytical SQL — comparing employees against department and company benchmarks and building multi-step performance analysis.
+
+</details>
+
 
 ---
 ⭐ *More days coming soon — follow along as this SQL grind continues!*
